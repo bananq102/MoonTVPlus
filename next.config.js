@@ -235,6 +235,36 @@ const createNextConfig = (phase) => {
       };
     }
 
+    // Server-only obfuscation (conservative). Only the server bundle is
+    // obfuscated; the client bundle is untouched. renameGlobals and
+    // transformObjectKeys stay off and controlFlowFlattening stays off, so
+    // Next.js dynamic requires and object keys keep working. Set
+    // OBFUSCATE_SERVER=false to skip obfuscation for a debug build.
+    // webpack-obfuscator is already in devDependencies (3.5.1).
+    if (isServer && !isDevelopment && process.env.OBFUSCATE_SERVER !== 'false') {
+      const JavaScriptObfuscator = require('webpack-obfuscator');
+      config.plugins.push(
+        new JavaScriptObfuscator(
+          {
+            compact: true,
+            controlFlowFlattening: false,
+            deadCodeInjection: false,
+            debugProtection: false,
+            disableConsoleOutput: false,
+            identifierNamesGenerator: 'hexadecimal',
+            renameGlobals: false,
+            selfDefending: false,
+            stringArray: true,
+            stringArrayEncoding: [],
+            stringArrayThreshold: 0.75,
+            transformObjectKeys: false,
+            unicodeEscapeSequence: false,
+          },
+          []
+        )
+      );
+    }
+
     return config;
   },
 };
