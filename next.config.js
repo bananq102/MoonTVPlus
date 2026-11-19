@@ -1,1 +1,265 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwovKiBlc2xpbnQtZGlzYWJsZSBAdHlwZXNjcmlwdC1lc2xpbnQvbm8tdmFyLXJlcXVpcmVzICovCgpjb25zdCB7IFBIQVNFX0RFVkVMT1BNRU5UX1NFUlZFUiB9ID0gcmVxdWlyZSgnbmV4dC9jb25zdGFudHMnKTsKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwoKLy8g5qOA5rWL5piv5ZCm5Li66L6557yY5bmz5Y+w5p6E5bu6CmNvbnN0IGlzQ2xvdWRmbGFyZSA9IHByb2Nlc3MuZW52LkNGX1BBR0VTID09PSAnMScgfHwgcHJvY2Vzcy5lbnYuQlVJTERfVEFSR0VUID09PSAnY2xvdWRmbGFyZSc7CmNvbnN0IGlzRWRnZU9uZSA9IHByb2Nlc3MuZW52LkVER0VPTkVfUEFHRVMgPT09ICcxJyB8fCBwcm9jZXNzLmVudi5CVUlMRF9UQVJHRVQgPT09ICdlZGdlb25lJzsKY29uc3QgaXNFZGdlQnVpbGQgPSBpc0Nsb3VkZmxhcmUgfHwgaXNFZGdlT25lOwoKY29uc3Qgb3B0aW1pemVkUGFja2FnZUltcG9ydHMgPSBbCiAgJ0BkbmQta2l0L2NvcmUnLAogICdAZG5kLWtpdC9tb2RpZmllcnMnLAogICdAZG5kLWtpdC9zb3J0YWJsZScsCiAgJ0BkbmQta2l0L3V0aWxpdGllcycsCiAgJ0BoZXJvaWNvbnMvcmVhY3QnLAogICdsdWNpZGUtcmVhY3QnLAogICdyZWFjdC1pY29ucycsCl07Cgpjb25zdCBjcmVhdGVOZXh0Q29uZmlnID0gKHBoYXNlKSA9PiB7CiAgY29uc3QgaXNEZXZlbG9wbWVudCA9IHBoYXNlID09PSBQSEFTRV9ERVZFTE9QTUVOVF9TRVJWRVIgfHwgcHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09ICdkZXZlbG9wbWVudCc7CgogIGNvbnN0IG5leHRDb25maWcgPSB7CiAgLy8gQ2xvdWRmbGFyZSBQYWdlcyDkuI3mlK/mjIEgc3RhbmRhbG9uZe+8jOS9v+eUqOm7mOiupOi+k+WHugogIG91dHB1dDogaXNFZGdlQnVpbGQgPyB1bmRlZmluZWQgOiAnc3RhbmRhbG9uZScsCiAgZXNsaW50OiB7CiAgICBkaXJzOiBbJ3NyYyddLAogICAgLy8g5Zyo55Sf5Lqn5p6E5bu65pe25b+955WlIEVTTGludCDplJnor68KICAgIGlnbm9yZUR1cmluZ0J1aWxkczogdHJ1ZSwKICB9LAoKICByZWFjdFN0cmljdE1vZGU6IGZhbHNlLAogIHN3Y01pbmlmeTogdHJ1ZSwKCiAgLy8gT3Blbk5leHQvZXNidWlsZCDkvb/nlKggd29ya2VyZCBjb25kaXRpb24g6Kej5p6Q5L6d6LWW44CCCiAgLy8gQGxpYnNxbC8qIOetieWMheaciSB3b3JrZXJkIOS4k+eUqOWFpeWPo++8iOWmgiB3ZWIuY2pz77yJ77yMTmV4dCBORlQg6buY6K6k5Y+q6L+96LiqIG5vZGUg5YWl5Y+j77yMCiAgLy8g5a+86Ie0IC5vcGVuLW5leHQg6YeM57y65bCRIHdlYi5janMg5bm25oqlIENvdWxkIG5vdCByZXNvbHZlICJAbGlic3FsL2lzb21vcnBoaWMtd3Mi44CCCiAgLy8g5aOw5piO5Li6IHNlcnZlciBleHRlcm5hbCDlkI7vvIxPcGVuTmV4dCDkvJrlrozmlbTmi7fotJ3ov5nkupvljIXlubblupTnlKggd29ya2VyZCDlr7zlh7rjgIIKICAvLyDlj4Lop4E6IGh0dHBzOi8vb3Blbm5leHQuanMub3JnL2Nsb3VkZmxhcmUvaG93dG9zL3dvcmtlcmQKICBzZXJ2ZXJFeHRlcm5hbFBhY2thZ2VzOiBbCiAgICAnQGxpYnNxbC9jbGllbnQnLAogICAgJ0BsaWJzcWwvaHJhbmEtY2xpZW50JywKICAgICdAbGlic3FsL2lzb21vcnBoaWMtd3MnLAogICAgJ0BsaWJzcWwvaXNvbW9ycGhpYy1mZXRjaCcsCiAgICAnbGlic3FsJywKICBdLAoKICBleHBlcmltZW50YWw6IHsKICAgIGluc3RydW1lbnRhdGlvbkhvb2s6IHByb2Nlc3MuZW52Lk5PREVfRU5WID09PSAncHJvZHVjdGlvbicgJiYgIWlzRWRnZUJ1aWxkLAogICAgb3B0aW1pemVQYWNrYWdlSW1wb3J0czogb3B0aW1pemVkUGFja2FnZUltcG9ydHMsCiAgICB3ZWJwYWNrQnVpbGRXb3JrZXI6ICFpc0VkZ2VCdWlsZCwKICAgIC8vIE5leHQgMTQuMiDku43lj6/og73or7vlj5bmraTlrZfmrrXvvJvkuI4gc2VydmVyRXh0ZXJuYWxQYWNrYWdlcyDkv53mjIHkuIDoh7QKICAgIHNlcnZlckNvbXBvbmVudHNFeHRlcm5hbFBhY2thZ2VzOiBbCiAgICAgICdAbGlic3FsL2NsaWVudCcsCiAgICAgICdAbGlic3FsL2hyYW5hLWNsaWVudCcsCiAgICAgICdAbGlic3FsL2lzb21vcnBoaWMtd3MnLAogICAgICAnQGxpYnNxbC9pc29tb3JwaGljLWZldGNoJywKICAgICAgJ2xpYnNxbCcsCiAgICBdLAogIH0sCgogIC8vIFVuY29tZW50IHRvIGFkZCBkb21haW4gd2hpdGVsaXN0CiAgaW1hZ2VzOiB7CiAgICB1bm9wdGltaXplZDogdHJ1ZSwKICAgIHJlbW90ZVBhdHRlcm5zOiBbCiAgICAgIHsKICAgICAgICBwcm90b2NvbDogJ2h0dHBzJywKICAgICAgICBob3N0bmFtZTogJyoqJywKICAgICAgfSwKICAgICAgewogICAgICAgIHByb3RvY29sOiAnaHR0cCcsCiAgICAgICAgaG9zdG5hbWU6ICcqKicsCiAgICAgIH0sCiAgICBdLAogIH0sCgogIHdlYnBhY2soY29uZmlnLCB7IGlzU2VydmVyIH0pIHsKICAgIGlmICghaXNTZXJ2ZXIpIHsKICAgICAgLy8gbGliYml0c3Vi77yIUEdTIOS9jeWbvuWtl+W5lea4suafk+WZqO+8ieS4jee7jyB3ZWJwYWNrIOaJk+WMhe+8muWFtiB3YXNtIOiDtuawtO+8iHBrZy9saWJiaXRzdWIuanPvvIkKICAgICAgLy8g5piv57qvIEVTTe+8jOiiqyBuZXcgVVJMKCkg5byV55So5pe2IHdlYnBhY2sg5Lya5Y6f5qC36L6T5Ye65Li66Z2Z5oCB6LWE5rqQ77yMTmV4dCDnmoQgc3djIOWOi+e8qeWZqAogICAgICAvLyDmjIkgc2NyaXB0IOaooeW8j+ino+aekOS8muaKpSAiZXhwb3J0IGNhbm5vdCBiZSB1c2VkIG91dHNpZGUgb2YgbW9kdWxlIGNvZGUi44CCCiAgICAgIC8vIOaUueS4uuaKiuWMheWOn+agt+aLt+WIsCBwdWJsaWMvbGliYml0c3ViL++8jOi/kOihjOaXtueUqCBpbXBvcnQoLyogd2VicGFja0lnbm9yZTogdHJ1ZSAqLyAuLi4pCiAgICAgIC8vIOiuqea1j+iniOWZqOWOn+eUn+WKoOi9veWFtiBFU00g5qih5Z2X5Zu+77yIcGxheS9wYWdlLnRzeCDnmoQgZW5zdXJlQml0c3ViUmVuZGVyZXLvvInjgIIKICAgICAgY29uc3QgbGliYml0c3ViU291cmNlID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJ25vZGVfbW9kdWxlcycsICdsaWJiaXRzdWInKTsKICAgICAgY29uc3QgbGliYml0c3ViVGFyZ2V0ID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJ3B1YmxpYycsICdsaWJiaXRzdWInKTsKICAgICAgZm9yIChjb25zdCBkaXIgb2YgWydkaXN0JywgJ3BrZyddKSB7CiAgICAgICAgZnMuY3BTeW5jKHBhdGguam9pbihsaWJiaXRzdWJTb3VyY2UsIGRpciksIHBhdGguam9pbihsaWJiaXRzdWJUYXJnZXQsIGRpciksIHsKICAgICAgICAgIHJlY3Vyc2l2ZTogdHJ1ZSwKICAgICAgICAgIGZpbHRlcjogKHNvdXJjZSkgPT4gIS9cLihkXC50c3xtYXApJC8udGVzdChzb3VyY2UpLAogICAgICAgIH0pOwogICAgICB9CiAgICAgIC8vIGRpc3QvIOaYr+mdouWQkSBidW5kbGVyIOeahOi+k+WHuu+8jOebuOWvueWvvOWFpeS4jeW4piAuanMg5omp5bGV5ZCN77yI5aaCIGZyb20gJy4vd3JhcHBlcifjgIEKICAgICAgLy8gaW1wb3J0KCcuLi8uLi9wa2cvbGliYml0c3ViJynvvInvvJvmtY/op4jlmajljp/nlJ8gRVNNIOS4jeWBmuaJqeWxleWQjeihpeWFqOS8miA0MDTvvIwKICAgICAgLy8g5ou36LSd5ZCO57uf5LiA5pS55YaZ5oiQ5bimIC5qcyDnmoTlvaLlvI/jgIIKICAgICAgY29uc3QgcmV3cml0ZUxpYmJpdHN1YkltcG9ydHMgPSAoZGlyKSA9PiB7CiAgICAgICAgZm9yIChjb25zdCBuYW1lIG9mIGZzLnJlYWRkaXJTeW5jKGRpcikpIHsKICAgICAgICAgIGNvbnN0IGZpbGUgPSBwYXRoLmpvaW4oZGlyLCBuYW1lKTsKICAgICAgICAgIGNvbnN0IHN0YXQgPSBmcy5zdGF0U3luYyhmaWxlKTsKICAgICAgICAgIGlmIChzdGF0LmlzRGlyZWN0b3J5KCkpIHsKICAgICAgICAgICAgcmV3cml0ZUxpYmJpdHN1YkltcG9ydHMoZmlsZSk7CiAgICAgICAgICB9IGVsc2UgaWYgKG5hbWUuZW5kc1dpdGgoJy5qcycpKSB7CiAgICAgICAgICAgIGNvbnN0IHNvdXJjZSA9IGZzLnJlYWRGaWxlU3luYyhmaWxlLCAndXRmOCcpOwogICAgICAgICAgICBjb25zdCByZXdyaXR0ZW4gPSBzb3VyY2UKICAgICAgICAgICAgICAucmVwbGFjZSgKICAgICAgICAgICAgICAgIC8oZnJvbVxzKikoWyciXSkoXC5cLj9cL1teJyJdKylcMi9nLAogICAgICAgICAgICAgICAgKG0sIHByZSwgcXVvdGUsIHNwZWMpID0+CiAgICAgICAgICAgICAgICAgIC9cLlthLXpdKyQvaS50ZXN0KHNwZWMpID8gbSA6IGAke3ByZX0ke3F1b3RlfSR7c3BlY30uanMke3F1b3RlfWAKICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgLnJlcGxhY2UoCiAgICAgICAgICAgICAgICAvKGltcG9ydFwoXHMqKShbJyJdKShcLlwuP1wvW14nIl0rKVwyL2csCiAgICAgICAgICAgICAgICAobSwgcHJlLCBxdW90ZSwgc3BlYykgPT4KICAgICAgICAgICAgICAgICAgL1wuW2Etel0rJC9pLnRlc3Qoc3BlYykgPyBtIDogYCR7cHJlfSR7cXVvdGV9JHtzcGVjfS5qcyR7cXVvdGV9YAogICAgICAgICAgICAgICk7CiAgICAgICAgICAgIGlmIChyZXdyaXR0ZW4gIT09IHNvdXJjZSkgZnMud3JpdGVGaWxlU3luYyhmaWxlLCByZXdyaXR0ZW4pOwogICAgICAgICAgfQogICAgICAgIH0KICAgICAgfTsKICAgICAgcmV3cml0ZUxpYmJpdHN1YkltcG9ydHMocGF0aC5qb2luKGxpYmJpdHN1YlRhcmdldCwgJ2Rpc3QnKSk7CiAgICB9CgogICAgLy8gR3JhYiB0aGUgZXhpc3RpbmcgcnVsZSB0aGF0IGhhbmRsZXMgU1ZHIGltcG9ydHMKICAgIGNvbnN0IGZpbGVMb2FkZXJSdWxlID0gY29uZmlnLm1vZHVsZS5ydWxlcy5maW5kKChydWxlKSA9PgogICAgICBydWxlLnRlc3Q/LnRlc3Q/LignLnN2ZycpCiAgICApOwoKICAgIGNvbmZpZy5tb2R1bGUucnVsZXMucHVzaCgKICAgICAgLy8gUmVhcHBseSB0aGUgZXhpc3RpbmcgcnVsZSwgYnV0IG9ubHkgZm9yIHN2ZyBpbXBvcnRzIGVuZGluZyBpbiA/dXJsCiAgICAgIHsKICAgICAgICAuLi5maWxlTG9hZGVyUnVsZSwKICAgICAgICB0ZXN0OiAvXC5zdmckL2ksCiAgICAgICAgcmVzb3VyY2VRdWVyeTogL3VybC8sIC8vICouc3ZnP3VybAogICAgICB9LAogICAgICAvLyBDb252ZXJ0IGFsbCBvdGhlciAqLnN2ZyBpbXBvcnRzIHRvIFJlYWN0IGNvbXBvbmVudHMKICAgICAgewogICAgICAgIHRlc3Q6IC9cLnN2ZyQvaSwKICAgICAgICBpc3N1ZXI6IHsgbm90OiAvXC4oY3NzfHNjc3N8c2FzcykkLyB9LAogICAgICAgIHJlc291cmNlUXVlcnk6IHsgbm90OiAvdXJsLyB9LCAvLyBleGNsdWRlIGlmICouc3ZnP3VybAogICAgICAgIGxvYWRlcjogJ0BzdmdyL3dlYnBhY2snLAogICAgICAgIG9wdGlvbnM6IHsKICAgICAgICAgIGRpbWVuc2lvbnM6IGZhbHNlLAogICAgICAgICAgdGl0bGVQcm9wOiB0cnVlLAogICAgICAgIH0sCiAgICAgIH0KICAgICk7CgogICAgLy8gTW9kaWZ5IHRoZSBmaWxlIGxvYWRlciBydWxlIHRvIGlnbm9yZSAqLnN2Zywgc2luY2Ugd2UgaGF2ZSBpdCBoYW5kbGVkIG5vdy4KICAgIGZpbGVMb2FkZXJSdWxlLmV4Y2x1ZGUgPSAvXC5zdmckL2k7CgogICAgY29uZmlnLnJlc29sdmUuZmFsbGJhY2sgPSB7CiAgICAgIC4uLmNvbmZpZy5yZXNvbHZlLmZhbGxiYWNrLAogICAgICBuZXQ6IGZhbHNlLAogICAgICB0bHM6IGZhbHNlLAogICAgICBjcnlwdG86IGZhbHNlLAogICAgfTsKCiAgICAvLyBDbG91ZGZsYXJlIOS9v+eUqCBEMe+8jOS4jemcgOimgeaKiiBiZXR0ZXItc3FsaXRlMyDljp/nlJ/mqKHlnZfluKblhaUgV29ya2VyIOS6p+eJqeOAggogICAgaWYgKGlzRWRnZUJ1aWxkKSB7CiAgICAgIGNvbmZpZy5yZXNvbHZlLmFsaWFzID0gewogICAgICAgIC4uLmNvbmZpZy5yZXNvbHZlLmFsaWFzLAogICAgICAgIC4uLk9iamVjdC5mcm9tRW50cmllcygKICAgICAgICAgIFsKICAgICAgICAgICAgJ2JldHRlci1zcWxpdGUzJywKICAgICAgICAgICAgJ3NoYXJwJywKICAgICAgICAgICAgJ25vZGVtYWlsZXInLAogICAgICAgICAgICAnc29ja2V0LmlvJywKICAgICAgICAgICAgJ3JlZGlzJywKICAgICAgICAgICAgJ0B2ZXJjZWwvcG9zdGdyZXMnLAogICAgICAgICAgICAncGcnLAogICAgICAgICAgICAnbGlic3FsJywKICAgICAgICAgICAgJ0BsaWJzcWwvaXNvbW9ycGhpYy1mZXRjaCcsCiAgICAgICAgICAgICdAbGlic3FsL2lzb21vcnBoaWMtd3MnLAogICAgICAgICAgXS5tYXAoKHBrZykgPT4gWwogICAgICAgICAgICBwa2csCiAgICAgICAgICAgIHBhdGgucmVzb2x2ZSgKICAgICAgICAgICAgICBfX2Rpcm5hbWUsCiAgICAgICAgICAgICAgJ3NyYy9saWIvY2xvdWRmbGFyZS1zaGltcy9ub2RlLXVuc3VwcG9ydGVkLnRzJwogICAgICAgICAgICApLAogICAgICAgICAgXSkKICAgICAgICApLAogICAgICAgIC8vIENsb3VkZmxhcmUgV29ya2VycyDmnInljp/nlJ8gZmV0Y2jvvJvku6PnkIYgQWdlbnQg5ZyoIFdvcmtlcnMg5Lit5LiN5Y+v55So44CCCiAgICAgICAgLy8g55So6L276YePIHNoaW0g5pu/5o2iIG5vZGUtZmV0Y2ggLyBodHRwcy1wcm94eS1hZ2VudO+8jOmBv+WFjeaKiiBOb2RlIEhUVFAg5qCI5omT5YWlIFdvcmtlcuOAggogICAgICAgICdub2RlLWZldGNoJzogcGF0aC5yZXNvbHZlKAogICAgICAgICAgX19kaXJuYW1lLAogICAgICAgICAgJ3NyYy9saWIvY2xvdWRmbGFyZS1zaGltcy9ub2RlLWZldGNoLnRzJwogICAgICAgICksCiAgICAgICAgLi4uKGlzQ2xvdWRmbGFyZQogICAgICAgICAgPyB7CiAgICAgICAgICAgICAgJ2h0dHBzLXByb3h5LWFnZW50JzogcGF0aC5yZXNvbHZlKAogICAgICAgICAgICAgICAgX19kaXJuYW1lLAogICAgICAgICAgICAgICAgJ3NyYy9saWIvY2xvdWRmbGFyZS1zaGltcy9odHRwcy1wcm94eS1hZ2VudC50cycKICAgICAgICAgICAgICApLAogICAgICAgICAgICB9CiAgICAgICAgICA6IHt9KSwKICAgICAgICAvLyBvcGVuY2MtanMg5a2X5YW45L2T56ev5beo5aSn77yIfjEuOU1C77yJ77yM5LuF5a6i5oi356uv57mB566A6L2s5o2i6ZyA6KaB44CCCiAgICAgICAgLy8gc2VydmVyIOaehOW7uueUqOepuuWunueOsCBzaGltIOabv+aNou+8jOmBv+WFjeWtl+WFuOWGheiBlOi/myBXb3JrZXLvvJtjbGllbnQg5p6E5bu655So55yf5bqT44CCCiAgICAgICAgLi4uKGlzQ2xvdWRmbGFyZSAmJiBpc1NlcnZlcgogICAgICAgICAgPyB7CiAgICAgICAgICAgICAgJ29wZW5jYy1qcyc6IHBhdGgucmVzb2x2ZSgKICAgICAgICAgICAgICAgIF9fZGlybmFtZSwKICAgICAgICAgICAgICAgICdzcmMvbGliL2Nsb3VkZmxhcmUtc2hpbXMvb3BlbmNjLWpzLnRzJwogICAgICAgICAgICAgICksCiAgICAgICAgICAgIH0KICAgICAgICAgIDoge30pLAogICAgICB9OwogICAgICBjb25maWcuZXh0ZXJuYWxzID0gKGNvbmZpZy5leHRlcm5hbHMgfHwgW10pLmZpbHRlcigoZXh0ZXJuYWwpID0+IHsKICAgICAgICByZXR1cm4gISgKICAgICAgICAgIGV4dGVybmFsICYmCiAgICAgICAgICB0eXBlb2YgZXh0ZXJuYWwgPT09ICdvYmplY3QnICYmCiAgICAgICAgICBPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwoZXh0ZXJuYWwsICdiZXR0ZXItc3FsaXRlMycpCiAgICAgICAgKTsKICAgICAgfSk7CiAgICB9CgogICAgLy8gRXhjbHVkZSBiZXR0ZXItc3FsaXRlMywgRDEsIFBvc3RncmVzLCBhbmQgVHVyc28gbW9kdWxlcyBmcm9tIGNsaWVudC1zaWRlIGJ1bmRsZQogICAgaWYgKCFpc1NlcnZlcikgewogICAgICBjb25maWcuZXh0ZXJuYWxzID0gY29uZmlnLmV4dGVybmFscyB8fCBbXTsKICAgICAgY29uZmlnLmV4dGVybmFscy5wdXNoKHsKICAgICAgICAnYmV0dGVyLXNxbGl0ZTMnOiAnY29tbW9uanMgYmV0dGVyLXNxbGl0ZTMnLAogICAgICAgICdAdmVyY2VsL3Bvc3RncmVzJzogJ2NvbW1vbmpzIEB2ZXJjZWwvcG9zdGdyZXMnLAogICAgICAgICdwZyc6ICdjb21tb25qcyBwZycsCiAgICAgICAgJ0BsaWJzcWwvY2xpZW50JzogJ2NvbW1vbmpzIEBsaWJzcWwvY2xpZW50JywKICAgICAgfSk7CgogICAgICBjb25maWcucmVzb2x2ZS5hbGlhcyA9IHsKICAgICAgICAuLi5jb25maWcucmVzb2x2ZS5hbGlhcywKICAgICAgICAnYmV0dGVyLXNxbGl0ZTMnOiBmYWxzZSwKICAgICAgICAnQC9saWIvZDEuZGInOiBmYWxzZSwKICAgICAgICAnQC9saWIvZDEtYWRhcHRlcic6IGZhbHNlLAogICAgICAgICdAL2xpYi9wb3N0Z3Jlcy5kYic6IGZhbHNlLAogICAgICAgICdAL2xpYi9wb3N0Z3Jlcy1hZGFwdGVyJzogZmFsc2UsCiAgICAgICAgJ0AvbGliL3R1cnNvLWFkYXB0ZXInOiBmYWxzZSwKICAgICAgfTsKICAgIH0KCiAgICAvLyBOT1RFOiBTZXJ2ZXIgb2JmdXNjYXRpb24gd2FzIHJlbW92ZWQgKDIwMjYtMTEtMTkpLiB3ZWJwYWNrLW9iZnVzY2F0b3IKICAgIC8vIGJyb2tlIHRoZSBPcGVuTmV4dCBzZXJ2ZXIgYnVuZGxlIG9uIFdvcmtlcnM6IGV2ZXJ5IHBhZ2UgcmV0dXJuZWQgNTAwCiAgICAvLyB3aXRoIGBEeW5hbWljIHJlcXVpcmUgb2YgIi4uLy4uL3dlYnBhY2stcnVudGltZS5qcyIgaXMgbm90IHN1cHBvcnRlZGAuCiAgICAvLyBUaGUgZGVwbG95ZWQgYnVuZGxlIGlzIG1pbmlmaWVkIG9ubHk7IHRoZSBzb3VyY2UgaXMgcHVibGljIG9uIEdpdEh1YgogICAgLy8gYW55d2F5LCBzbyBvYmZ1c2NhdGlvbiBoaWQgbm90aGluZy4KCiAgICByZXR1cm4gY29uZmlnOwogIH0sCn07CgogIC8vIG5leHQtcHdhIHJ1bnMgYW4gYWRkaXRpb25hbCB3ZWJwYWNrIHBhc3MgdGhhdCBpcyBub3QgbmVlZGVkIGZvciB0aGUKICAvLyBDbG91ZGZsYXJlL09wZW5OZXh0IHdvcmtlciBidW5kbGUgYW5kIGNhbiBtYWtlIENsb3VkZmxhcmUgYnVpbGRzIGZhaWwgd2l0aAogIC8vIGEgZ2VuZXJpYyAiQnVpbGQgZmFpbGVkIGJlY2F1c2Ugb2Ygd2VicGFjayBlcnJvcnMiIG1lc3NhZ2UuCiAgaWYgKGlzRGV2ZWxvcG1lbnQgfHwgaXNFZGdlQnVpbGQpIHsKICAgIHJldHVybiBuZXh0Q29uZmlnOwogIH0KCiAgY29uc3Qgd2l0aFBXQSA9IHJlcXVpcmUoJ25leHQtcHdhJykoewogICAgZGVzdDogJ3B1YmxpYycsCiAgICByZWdpc3RlcjogdHJ1ZSwKICAgIHNraXBXYWl0aW5nOiB0cnVlLAogICAgaW1wb3J0U2NyaXB0czogWycvcHVzaC1zdy5qcyddLAogIH0pOwoKICByZXR1cm4gd2l0aFBXQShuZXh0Q29uZmlnKTsKfTsKCm1vZHVsZS5leHBvcnRzID0gY3JlYXRlTmV4dENvbmZpZzsK
+/** @type {import('next').NextConfig} */
+/* eslint-disable @typescript-eslint/no-var-requires */
+
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
+const fs = require('fs');
+const path = require('path');
+
+// 检测是否为边缘平台构建
+const isCloudflare = process.env.CF_PAGES === '1' || process.env.BUILD_TARGET === 'cloudflare';
+const isEdgeOne = process.env.EDGEONE_PAGES === '1' || process.env.BUILD_TARGET === 'edgeone';
+const isEdgeBuild = isCloudflare || isEdgeOne;
+
+const optimizedPackageImports = [
+  '@dnd-kit/core',
+  '@dnd-kit/modifiers',
+  '@dnd-kit/sortable',
+  '@dnd-kit/utilities',
+  '@heroicons/react',
+  'lucide-react',
+  'react-icons',
+];
+
+const createNextConfig = (phase) => {
+  const isDevelopment = phase === PHASE_DEVELOPMENT_SERVER || process.env.NODE_ENV === 'development';
+
+  const nextConfig = {
+  // Cloudflare Pages 不支持 standalone，使用默认输出
+  output: isEdgeBuild ? undefined : 'standalone',
+  eslint: {
+    dirs: ['src'],
+    // 在生产构建时忽略 ESLint 错误
+    ignoreDuringBuilds: true,
+  },
+
+  reactStrictMode: false,
+  swcMinify: true,
+
+  // OpenNext/esbuild 使用 workerd condition 解析依赖。
+  // @libsql/* 等包有 workerd 专用入口（如 web.cjs），Next NFT 默认只追踪 node 入口，
+  // 导致 .open-next 里缺少 web.cjs 并报 Could not resolve "@libsql/isomorphic-ws"。
+  // 声明为 server external 后，OpenNext 会完整拷贝这些包并应用 workerd 导出。
+  // 参见: https://opennext.js.org/cloudflare/howtos/workerd
+  serverExternalPackages: [
+    '@libsql/client',
+    '@libsql/hrana-client',
+    '@libsql/isomorphic-ws',
+    '@libsql/isomorphic-fetch',
+    'libsql',
+  ],
+
+  experimental: {
+    instrumentationHook: process.env.NODE_ENV === 'production' && !isEdgeBuild,
+    optimizePackageImports: optimizedPackageImports,
+    webpackBuildWorker: !isEdgeBuild,
+    // Next 14.2 仍可能读取此字段；与 serverExternalPackages 保持一致
+    serverComponentsExternalPackages: [
+      '@libsql/client',
+      '@libsql/hrana-client',
+      '@libsql/isomorphic-ws',
+      '@libsql/isomorphic-fetch',
+      'libsql',
+    ],
+  },
+
+  // Uncoment to add domain whitelist
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+      {
+        protocol: 'http',
+        hostname: '**',
+      },
+    ],
+  },
+
+  webpack(config, { isServer }) {
+    if (!isServer) {
+      // libbitsub（PGS 位图字幕渲染器）不经 webpack 打包：其 wasm 胶水（pkg/libbitsub.js）
+      // 是纯 ESM，被 new URL() 引用时 webpack 会原样输出为静态资源，Next 的 swc 压缩器
+      // 按 script 模式解析会报 "export cannot be used outside of module code"。
+      // 改为把包原样拷到 public/libbitsub/，运行时用 import(/* webpackIgnore: true */ ...)
+      // 让浏览器原生加载其 ESM 模块图（play/page.tsx 的 ensureBitsubRenderer）。
+      const libbitsubSource = path.join(__dirname, 'node_modules', 'libbitsub');
+      const libbitsubTarget = path.join(__dirname, 'public', 'libbitsub');
+      for (const dir of ['dist', 'pkg']) {
+        fs.cpSync(path.join(libbitsubSource, dir), path.join(libbitsubTarget, dir), {
+          recursive: true,
+          filter: (source) => !/\.(d\.ts|map)$/.test(source),
+        });
+      }
+      // dist/ 是面向 bundler 的输出，相对导入不带 .js 扩展名（如 from './wrapper'、
+      // import('../../pkg/libbitsub')）；浏览器原生 ESM 不做扩展名补全会 404，
+      // 拷贝后统一改写成带 .js 的形式。
+      const rewriteLibbitsubImports = (dir) => {
+        for (const name of fs.readdirSync(dir)) {
+          const file = path.join(dir, name);
+          const stat = fs.statSync(file);
+          if (stat.isDirectory()) {
+            rewriteLibbitsubImports(file);
+          } else if (name.endsWith('.js')) {
+            const source = fs.readFileSync(file, 'utf8');
+            const rewritten = source
+              .replace(
+                /(from\s*)(['"])(\.\.?\/[^'"]+)\2/g,
+                (m, pre, quote, spec) =>
+                  /\.[a-z]+$/i.test(spec) ? m : `${pre}${quote}${spec}.js${quote}`
+              )
+              .replace(
+                /(import\(\s*)(['"])(\.\.?\/[^'"]+)\2/g,
+                (m, pre, quote, spec) =>
+                  /\.[a-z]+$/i.test(spec) ? m : `${pre}${quote}${spec}.js${quote}`
+              );
+            if (rewritten !== source) fs.writeFileSync(file, rewritten);
+          }
+        }
+      };
+      rewriteLibbitsubImports(path.join(libbitsubTarget, 'dist'));
+    }
+
+    // Grab the existing rule that handles SVG imports
+    const fileLoaderRule = config.module.rules.find((rule) =>
+      rule.test?.test?.('.svg')
+    );
+
+    config.module.rules.push(
+      // Reapply the existing rule, but only for svg imports ending in ?url
+      {
+        ...fileLoaderRule,
+        test: /\.svg$/i,
+        resourceQuery: /url/, // *.svg?url
+      },
+      // Convert all other *.svg imports to React components
+      {
+        test: /\.svg$/i,
+        issuer: { not: /\.(css|scss|sass)$/ },
+        resourceQuery: { not: /url/ }, // exclude if *.svg?url
+        loader: '@svgr/webpack',
+        options: {
+          dimensions: false,
+          titleProp: true,
+        },
+      }
+    );
+
+    // Modify the file loader rule to ignore *.svg, since we have it handled now.
+    fileLoaderRule.exclude = /\.svg$/i;
+
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      net: false,
+      tls: false,
+      crypto: false,
+    };
+
+    // Cloudflare 使用 D1，不需要把 better-sqlite3 原生模块带入 Worker 产物。
+    if (isEdgeBuild) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        ...Object.fromEntries(
+          [
+            'better-sqlite3',
+            'sharp',
+            'nodemailer',
+            'socket.io',
+            'redis',
+            '@vercel/postgres',
+            'pg',
+            'libsql',
+            '@libsql/isomorphic-fetch',
+            '@libsql/isomorphic-ws',
+          ].map((pkg) => [
+            pkg,
+            path.resolve(
+              __dirname,
+              'src/lib/cloudflare-shims/node-unsupported.ts'
+            ),
+          ])
+        ),
+        // Cloudflare Workers 有原生 fetch；代理 Agent 在 Workers 中不可用。
+        // 用轻量 shim 替换 node-fetch / https-proxy-agent，避免把 Node HTTP 栈打入 Worker。
+        'node-fetch': path.resolve(
+          __dirname,
+          'src/lib/cloudflare-shims/node-fetch.ts'
+        ),
+        ...(isCloudflare
+          ? {
+              'https-proxy-agent': path.resolve(
+                __dirname,
+                'src/lib/cloudflare-shims/https-proxy-agent.ts'
+              ),
+            }
+          : {}),
+        // opencc-js 字典体积巨大（~1.9MB），仅客户端繁简转换需要。
+        // server 构建用空实现 shim 替换，避免字典内联进 Worker；client 构建用真库。
+        ...(isCloudflare && isServer
+          ? {
+              'opencc-js': path.resolve(
+                __dirname,
+                'src/lib/cloudflare-shims/opencc-js.ts'
+              ),
+            }
+          : {}),
+      };
+      config.externals = (config.externals || []).filter((external) => {
+        return !(
+          external &&
+          typeof external === 'object' &&
+          Object.prototype.hasOwnProperty.call(external, 'better-sqlite3')
+        );
+      });
+    }
+
+    // Exclude better-sqlite3, D1, Postgres, and Turso modules from client-side bundle
+    if (!isServer) {
+      config.externals = config.externals || [];
+      config.externals.push({
+        'better-sqlite3': 'commonjs better-sqlite3',
+        '@vercel/postgres': 'commonjs @vercel/postgres',
+        'pg': 'commonjs pg',
+        '@libsql/client': 'commonjs @libsql/client',
+      });
+
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        'better-sqlite3': false,
+        '@/lib/d1.db': false,
+        '@/lib/d1-adapter': false,
+        '@/lib/postgres.db': false,
+        '@/lib/postgres-adapter': false,
+        '@/lib/turso-adapter': false,
+      };
+    }
+
+    // NOTE: Server obfuscation was removed (2026-11-19). webpack-obfuscator
+    // broke the OpenNext server bundle on Workers: every page returned 500
+    // with `Dynamic require of "../../webpack-runtime.js" is not supported`.
+    // The deployed bundle is minified only; the source is public on GitHub
+    // anyway, so obfuscation hid nothing.
+
+    return config;
+  },
+};
+
+  // next-pwa runs an additional webpack pass that is not needed for the
+  // Cloudflare/OpenNext worker bundle and can make Cloudflare builds fail with
+  // a generic "Build failed because of webpack errors" message.
+  if (isDevelopment || isEdgeBuild) {
+    return nextConfig;
+  }
+
+  const withPWA = require('next-pwa')({
+    dest: 'public',
+    register: true,
+    skipWaiting: true,
+    importScripts: ['/push-sw.js'],
+  });
+
+  return withPWA(nextConfig);
+};
+
+module.exports = createNextConfig;
